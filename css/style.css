@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: #9796f0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+
+}
+.container{
+    width: 40%;
+    height: 90vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 30%;
+    background-color: rgba(90, 90, 90, 0.149);
+    border-radius: 10px;
+
+}
+.flex-img{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.img-principal{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(4, 4, 4, 0.5);
+    margin-top: 4vh;
+    background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    
+}
+h1{
+    text-align: center;
+    color: #623382ef;
+    padding: 3vh;
+    font-size: 4.5vh;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.837);
+    font-family: 'Source Code Pro', monospace;
+    
+}
+.link{
+    width: 80%;
+    margin: auto;
+    margin-left: 10%;
+    margin-top: 2vh;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Source Code Pro', monospace;
+    border-radius: 10px;
+    border: 4px ;
+
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.863);
+  box-shadow: 0 0 20px #eeeeeebd;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+
+}
+.link:hover{
+    transform: scale(1.3);
+    transition-duration: 1s;
+    background-position: right center;
+}
+.marca{
+    text-align: center;
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.742);
+    margin-top: 5vh;
+}
+/*       RESPONSIVE      */
+
+@media(max-width: 550px) {
+    .container{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
